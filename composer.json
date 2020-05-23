@@ -1,0 +1,7 @@
+{
+	"require": {
+		"stripe/stripe-php": "2.*",
+		"google/cloud-datastore": "^1.11",
+		"google/cloud-vision": "^1.0"
+	}
+}

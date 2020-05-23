@@ -1,0 +1,49 @@
+runtime: php55
+api_version: 1
+
+handlers:
+
+- url: /js
+  static_dir: js
+
+- url: /css
+  static_dir: css
+
+- url: /*
+  script: home.php
+
+- url: /university
+  script: uni.php
+
+- url: /browse
+  script: browse.php
+
+- url: /about
+  script: about.php
+
+- url: /source_code
+  script: github.php
+
+- url: /references
+  script: references.php
+
+- url: /login
+  script: login.php
+
+- url: /index
+  script: index.php
+
+- url: /logout
+  script: logout.php
+
+- url: /g-callback
+  script: g-callback.php
+
+- url: /sql
+  script: sql.php
+
+- url: /ai
+  script: ai.php
+
+- url: /check
+  script: check.php
