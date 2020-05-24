@@ -136,10 +136,6 @@ if (!is_null($_POST['name']))
 						<td>Email</td>
 						<td><?php echo $_SESSION['email'] ?></td>
 					</tr>
-					<tr>
-						<td>Gender</td>
-						<td><?php echo $_SESSION['gender'] ?></td>
-					</tr>
 				</tbody>
 			</table>
 		</div>
